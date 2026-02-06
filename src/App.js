@@ -1,10 +1,16 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Menu from "./components/Menu";
+import Contact from "./components/Contact";
+
 function App() {
   return (
-    <div className="min-h-screen bg-orange-50 flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-orange-700">
-        Tailwind Works
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Menu />
+      <Contact />
+    </>
   );
 }
 
