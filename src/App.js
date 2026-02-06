@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
+import WhatsAppButton from "./components/WhatsAppButton";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Hero />
       <Menu />
       <Contact />
+      <WhatsAppButton />
     </>
   );
 }
